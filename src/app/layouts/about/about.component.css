@@ -1,0 +1,78 @@
+#about {
+  position: relative;
+}
+
+.info {
+  padding: 6rem 10%;
+  background-color: #009DDC;
+  color: #f8f8f8;
+  height: 800px;
+  text-align: center;
+}
+
+.title {
+  padding: 0.75rem .5rem 2rem .5rem;
+  text-transform: uppercase;
+}
+
+.row {
+  margin: -.5rem 0 0 0 !important;
+}
+
+.about-us__content p {
+  font-size: 1.35rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+[class*="col-"] {
+  padding: 0 !important;
+}
+
+.parallax {
+  position: relative;
+  background-image: url(../../../assets/img/rawpixel-577480-unsplash.jpg);
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parallax::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.parallax h1 {
+  position: relative;
+  padding: 8rem 0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  border: 1px solid #fafafa;
+  border-radius: 3rem;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #009DDC !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .info {
+    height: auto;
+  }
+}

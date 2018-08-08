@@ -1,0 +1,40 @@
+.navbar {
+  padding: .75rem 3rem;
+  background-color: #ffffff !important;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0314), 0 1px 5px 0 rgba(0, 0, 0, 0.0312), 0 3px 1px -2px rgba(0, 0, 0, 0.021);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0314), 0 1px 5px 0 rgba(0, 0, 0, 0.0312), 0 3px 1px -2px rgba(0, 0, 0, 0.021);
+}
+
+.nav-link {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  color: #009DDC !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  position: relative;
+  color: #009DDC !important;
+}
+
+span {
+  position: relative;
+  text-transform: uppercase;
+  margin-left: .5rem;
+  font-size: 1.5rem;
+  top: .15rem;
+  font-weight: 300;
+}
+
+button:focus {
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+@media only screen and (max-width: 768px) {
+  span {
+    font-size: 1.2rem;
+  }
+}

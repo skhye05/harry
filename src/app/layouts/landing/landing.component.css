@@ -1,0 +1,82 @@
+.slider-one {
+  position: relative;
+  background-image: url(../../../assets/img/sliders/4.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-two {
+  position: relative;
+  background-image: url(../../../assets/img/sliders/3.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-three {
+  position: relative;
+  background-image: url(../../../assets/img/sliders/5.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-one::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to bottom right, #431A11, #9B6A2A);
+  opacity: .1;
+}
+
+.slider-two::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to bottom right, #1E5183, #74DAAC);
+  opacity: .1;
+}
+
+.slider-three::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to bottom right, #BA4C4E, #494D99);
+  opacity: .1;
+}
+
+.slider-one::after,
+.slider-two::after,
+.slider-three::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000000;
+  opacity: .3;
+}
+
+i {
+  font-size: 2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
