@@ -8,13 +8,11 @@ import { FooterComponent } from './footer/footer.component';
 import { ValuesComponent } from './values/values.component';
 import { AboutComponent } from './about/about.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { NguCarouselModule } from '@ngu/carousel';
 
 @NgModule({
   imports: [
     CommonModule,
-    NgbModule,
-    NguCarouselModule
+    NgbModule
   ],
   declarations: [LandingComponent, HeaderComponent, FooterComponent, ValuesComponent, AboutComponent, ContactUsComponent],
   exports: [LandingComponent, HeaderComponent, FooterComponent, ValuesComponent, AboutComponent, ContactUsComponent],
