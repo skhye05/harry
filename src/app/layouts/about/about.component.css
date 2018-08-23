@@ -1,18 +1,25 @@
 #about {
   position: relative;
+  background: #fff;
 }
 
 .info {
-  padding: 6rem 10%;
-  background-color: #009DDC;
+  padding: 2.5rem 10%;
   color: #f8f8f8;
-  height: 800px;
+  min-height: 800px;
   text-align: center;
 }
 
-.title {
-  padding: 0.75rem .5rem 2rem .5rem;
-  text-transform: uppercase;
+.bg-about {
+  background-color: #221117;
+}
+
+.info img {
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
 }
 
 .row {
@@ -20,7 +27,7 @@
 }
 
 .about-us__content p {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   font-weight: 300;
   text-align: left;
 }
@@ -52,7 +59,7 @@
 .parallax h1 {
   position: relative;
   padding: 8rem 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: white;
   font-weight: 400;
 }
@@ -68,7 +75,20 @@
 
 .btn:hover {
   background-color: #ffffff;
-  color: #009DDC !important;
+  color: #221117 !important;
+}
+
+.equal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal>[class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 768px) {

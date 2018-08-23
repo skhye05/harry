@@ -68,7 +68,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000000;
+  background: #ffffff;
   opacity: .3;
 }
 
@@ -79,4 +79,5 @@ i {
 h1 {
   text-transform: uppercase;
   font-weight: 300;
+  color: #221117;
 }

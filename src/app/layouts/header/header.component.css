@@ -8,20 +8,25 @@
 .nav-link {
   margin-left: .5rem;
   margin-right: .5rem;
-  color: #009DDC !important;
-  font-weight: 400;
-  text-transform: uppercase;
+  color: #221117 !important;
+  font-weight: 200;
+  /* text-transform: uppercase; */
   cursor: pointer;
+  transition: all .5s;
+}
+
+.nav-link:hover {
+  /* font-weight: 400; */
 }
 
 .navbar-brand {
   position: relative;
-  color: #009DDC !important;
+  color: #221117 !important;
 }
 
 span {
   position: relative;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-left: .5rem;
   font-size: 1.5rem;
   top: .15rem;
