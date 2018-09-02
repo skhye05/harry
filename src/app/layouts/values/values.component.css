@@ -1,4 +1,4 @@
-#value {
+#locations {
   position: relative;
   padding: 8rem 0 16rem 0;
 }
@@ -9,9 +9,9 @@
 }
 
 .card img {
-  width: 40%;
+  height: 200px;
   margin: auto;
-  padding: 1.25rem .5rem;
+  object-fit: cover;
 }
 
 .title_content {
@@ -20,7 +20,36 @@
   font-weight: 200;
 }
 
-.card {
-  padding: 1.5rem 1rem;
+.card .title_content,
+.card .content {
+  padding: 1.25rem 1rem;
   border: none;
+}
+
+.parallax {
+  position: relative;
+  background-image: url(../../../assets/img/main/2.jpeg);
+  height: auto;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parallax::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.parallax h1 {
+  position: relative;
+  padding: 8rem 0;
+  /* text-transform: uppercase; */
+  color: white;
+  font-weight: 400;
 }

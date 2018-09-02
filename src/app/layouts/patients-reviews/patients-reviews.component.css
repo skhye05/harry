@@ -1,0 +1,9 @@
+#patients-reviews {
+  position: relative;
+  padding: 8rem 0 16rem 0;
+}
+
+.title {
+  text-transform: uppercase;
+  padding: 1.5rem .5rem 4rem .5rem;
+}
