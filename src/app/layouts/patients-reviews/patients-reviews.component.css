@@ -6,4 +6,5 @@
 .title {
   text-transform: uppercase;
   padding: 1.5rem .5rem 4rem .5rem;
+  font-weight: 800;
 }

@@ -1,6 +1,7 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Dancing Script', 'Lato', sans-serif;
   background-color: #fafafa;
+  font-size: 18px;
 }
 
 /* spacing */
@@ -145,10 +146,10 @@ ngb-carousel {
   z-index: 20;
 }
 
-.carousel-indicators
-.active {
+.carousel-indicators .active {
   background-color: #221117;
 }
+
 /* LOADING */
 
 .pulse {
@@ -194,26 +195,32 @@ ngb-carousel {
     clip: rect(0, 0, 100px, 0);
     opacity: 0.4;
   }
+
   4% {
     clip: rect(0, 66.66667px, 100px, 0);
     opacity: 0.6;
   }
+
   15% {
     clip: rect(0, 133.33333px, 100px, 0);
     opacity: 0.8;
   }
+
   20% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 1;
   }
+
   80% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 0;
   }
+
   90% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 0;
   }
+
   100% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 0;
@@ -224,23 +231,29 @@ ngb-carousel {
   0% {
     clip: rect(0, 0, 100px, 0);
   }
+
   4% {
     clip: rect(0, 66.66667px, 100px, 0);
   }
+
   15% {
     clip: rect(0, 133.33333px, 100px, 0);
   }
+
   20% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 1;
   }
+
   80% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 0;
   }
+
   90% {
     opacity: 0;
   }
+
   100% {
     clip: rect(0, 300px, 100px, 0);
     opacity: 0;

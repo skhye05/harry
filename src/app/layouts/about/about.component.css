@@ -1,7 +1,6 @@
 #about {
   position: relative;
   background: #fff;
-  padding-top: 63px;
 }
 
 .info {
@@ -17,9 +16,8 @@
 
 .info img {
   background-color: white;
-  margin-bottom: 1rem;
-  padding: 2rem;
-  margin-bottom: 1rem;
+  padding: .5rem;
+  margin-bottom: 1.2rem;
   border-radius: 50%;
 }
 
@@ -28,7 +26,7 @@
 }
 
 .about-us__content p {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-weight: 300;
   text-align: left;
 }
@@ -39,10 +37,11 @@
 
 .parallax {
   position: relative;
-  background-image: url(../../../assets/img/rawpixel-577480-unsplash.jpg);
+  background-image: url(../../../assets/img/about.jpg);
   height: auto;
   width: 100%;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,6 +59,8 @@
 .parallax h1 {
   position: relative;
   padding: 8rem 0;
+  font-size: 5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .4);
   /* text-transform: uppercase; */
   color: white;
   font-weight: 400;
